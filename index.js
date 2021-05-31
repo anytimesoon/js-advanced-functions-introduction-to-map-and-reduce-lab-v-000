@@ -25,9 +25,6 @@ function mapToSquare(sourceArray){
   return newArray
 };
 
-// my own reduce-like methods
-// reduceToTotal returns a running total when not given a starting point
-// reduceToTotal returns a running total when given a starting point
 
 function reduceToTotal(sourceArray, startingPoint = 0){
   let total = startingPoint
@@ -35,8 +32,6 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   return total
 };
 
-// reduceToAllTrue returns true when all values are truthy
-// reduceToAllTrue returns false when any value is falsy
 
 function reduceToAllTrue(sourceArray){
   let returnValue = true
@@ -48,8 +43,6 @@ function reduceToAllTrue(sourceArray){
   return returnValue
 };
 
-// reduceToAnyTrue returns false when no true value is present
-// reduceToAnyTrue returns true when a true value is present
 
 function reduceToAnyTrue(sourceArray){
     let returnValue = false
